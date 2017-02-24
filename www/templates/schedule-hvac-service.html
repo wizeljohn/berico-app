@@ -1,0 +1,84 @@
+<ion-view view-title="">
+      <ion-nav-title>
+      <img class="head-logo" src="../img/jointlogo2.png">
+    </ion-nav-title>
+  <ion-content>
+    <div class="row">
+        <div class="col">
+            <h2 class="title-h2">
+                Schedule HVAC Delivery
+            </h2>
+            <p>
+                Please fill out the form below, and one of our representatives will contact you shortly. 
+            </p>
+            <p>
+                If you are already a customer of Berico, Carolina Fuels, or Alamance Oil Company, please <a href="https://myaccount.berico.com/login">log in to schedule service or order.</a>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="sfd-form">
+           <form action="http://www.berico.com/schedule-hvac-service-2/" id="fscf_form11" method="post">
+            <p>
+                <span style="color:#ff0000;">*</span> Denotes Required Field
+            </p>
+            <div class="list">
+                <div class="item item-divider form-form">
+                    Contact Details
+                </div>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">First Name: <span style="color:#ff0000;">*</span></span>
+                    <input type="text" placeholder="" id="fscf_f_name11" name="f_name" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Last Name: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_l_name11" name="l_name" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Email: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_email11" name="email" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Best Phone #: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_field11_6" name="best-phone">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Company Name (If Applicable):</span>
+                    <input type="text" placeholder="" id="fscf_field11_4" name="company-name-if-applicable">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Full Address (include City, State &amp; Zip): <span style="color:#ff0000;">*</span>
+</span>
+                    <input type="text" placeholder="" id="fscf_field11_5" name="full-address">
+                </label>
+                <div class="item item-divider form-form">
+                    Preferred Method For Us To Contact you:
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field11_22_1" name="new-field01" value="1">Phone</ion-radio>
+                            <ion-radio id="fscf_field11_22_2" name="new-field01" value="2">Email</ion-radio>
+                    </ion-list>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Please Describe Type of Service Needed:</span>
+                    <textarea name="" id="" rows="5" id="fscf_field11_21" name="message-or-special-delivery-instructions"></textarea>
+                </label>
+                    <div id="fscf_captcha_image_div11" style="width:250px; height:65px; text-align:center;">
+      <img id="fscf_captcha_image1" style="border-style:none; margin:0; padding:0px; padding-right:5px; float:left;" src="http://www.berico.com/wp-content/plugins/si-contact-form/captcha/securimage_show.php?prefix=lLzht2ZToOu905QO" width="175" height="60" alt="CAPTCHA Image" title="CAPTCHA Image">
+      <input id="fscf_captcha_prefix1" type="hidden" name="fscf_captcha_prefix1" value="lLzht2ZToOu905QO">
+     <div id="fscf_captcha_refresh1">
+        <a href="#" rel="nofollow" title="Refresh Image" onclick="fscf_captcha_refresh('1','/wp-content/plugins/si-contact-form/captcha','http://www.berico.com/wp-content/plugins/si-contact-form/captcha/securimage_show.php?prefix='); return false;">
+        <img src="http://www.berico.com/wp-content/plugins/si-contact-form/captcha/images/refresh.png" width="22" height="20" alt="Refresh Image" style="border-style:none; margin:0; padding:0px; vertical-align:bottom;" onclick="this.blur();"></a>
+     </div>
+</div>
+
+                    <label id="fscf_captcha_field11" class="item item-input item-stacked-label">
+                        <span class="input-label" style="white-space:normal; width:100%;">Please fill in the above code for security purposes.<span style="color:#ff0000;">*</span></span>
+                        <input type="text" placeholder="Place Code here" id="fscf_captcha_code1" name="captcha_code" required>
+                    </label>
+                    <input type="submit" id="fscf_submit11" class="button button-balanced button-block" value="Submit" onclick="this.disabled=true; this.value='Submitting...'; this.form.submit();"> 
+            </div>
+           </form>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>

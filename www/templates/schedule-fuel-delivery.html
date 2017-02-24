@@ -1,0 +1,160 @@
+<ion-view view-title="Playlists">
+      <ion-nav-title>
+      <img class="head-logo" src="../img/jointlogo2.png">
+    </ion-nav-title>
+  <ion-content>
+    <div class="row">
+        <div class="col">
+            <h2 class="title-h2">
+                Schedule Fuel Delivery
+            </h2>
+            <p>
+                Please fill out the form below, and one of our representatives will contact you shortly. 
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" id="sfd-form">
+           <form action="http://www.berico.com/schedule-fuel-delivery-online/" id="fscf_form10" method="post">
+            <p>
+                <span style="color:#ff0000;">*</span> Denotes Required Field
+            </p>
+            <div class="list">
+                <div class="item item-divider form-form">
+                    Contact Details
+                </div>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">First Name: <span style="color:#ff0000;">*</span></span>
+                    <input type="text" placeholder="" id="fscf_f_name10" name="f_name" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Last Name: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_l_name10" name="l_name" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Email: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_email10" name="email" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Company Name (If Applicable):</span>
+                    <input type="text" placeholder="" id="fscf_field10_4" name="company-name-if-applicable">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Full Address (include City, State &amp; Zip): <span style="color:#ff0000;">*</span>
+</span>
+                    <input type="text" placeholder="" id="fscf_field10_5" name="full-address">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Best Phone #: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_field10_6" name="best-phone" required>
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Additional Phone #:</span>
+                    <input type="text" placeholder="" id="fscf_field1_7" name="additional-phone">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Message or Special Delivery Instructions:</span>
+                    <textarea name="" id="" rows="5" id="fscf_field10_18" name="message-or-special-delivery-instructions"></textarea>
+                </label>
+                <div class="item item-divider form-form">
+                    Preferred Company:
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_19_1" name="preferred-company" value="1">Alamance Oil - Alamance County Area</ion-radio>
+                            <ion-radio id="fscf_field10_19_2" name="preferred-company" value="2">Carolina Fuels - Rockingham / Caswell / Stokes County Area</ion-radio>
+                            <ion-radio id="fscf_field10_19_3" name="preferred-company" value="3">Berico Fuels - Greater Greensboro Area</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Do you: <span style="color:#ff0000;">*</span>
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_8_1" name="do-you" value="1">Own</ion-radio>
+                            <ion-radio id="fscf_field10_8_2" name="do-you" value="2">Rent</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Preferred Payment Method:
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_9_1" name="preferred-payment-method" value="1">Credit/Debit Card</ion-radio>
+                            <ion-radio id="fscf_field10_9_2" name="preferred-payment-method" value="2">Cash on Delivery</ion-radio>
+                            <ion-radio id="fscf_field10_9_3" name="preferred-payment-method" value="3">Check on Delivery</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Products: <span style="color:#ff0000;">*</span>
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_10_1" name="products[1]" value="1">Fuel Oil #2</ion-radio>
+                            <ion-radio id="fscf_field10_10_2" name="products[2]" value="2">Propane</ion-radio>
+                            <ion-radio id="fscf_field10_10_3" name="products[3]" value="3">Kerosene</ion-radio>
+                            <ion-radio id="fscf_field10_10_4" name="products[4]" value="4">Diesel (Off Road) - Ultra Low Sulfur</ion-radio>
+                            <ion-radio id="fscf_field10_10_5" name="products[5]" value="5">Diesel (On Road) - Ultra Low Sulfur</ion-radio>
+                            <ion-radio id="fscf_field10_10_6" name="products[6]" value="6">Gasoline</ion-radio>
+                            <ion-radio id="fscf_field10_10_7" name="products[7]" value="7">Motor Oil &amp; Lubricants</ion-radio>
+                            <ion-radio id="fscf_field10_10_8" name="products[8]" value="8">I Don't Know</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Tank Size
+                </div>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Tank Size: <span style="color:#ff0000;">*</span> </span>
+                    <input type="text" placeholder="" id="fscf_field10_6" name="best-phone">
+                </label>
+                <div class="item item-divider form-form">
+                    Tank Location:
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_12_1" name="tank-location" value="1">Above Ground</ion-radio>
+                            <ion-radio id="fscf_field10_12_2" name="tank-location" value="2">Underground</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Delivery Type: <span style="color:#ff0000;">*</span>
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_13_1" name="delivery-type" value="1">Auto-Fill (requires Credit Application)</ion-radio>
+                            <ion-radio id="fscf_field10_13_2" name="delivery-type" value="2">No</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Annual Consumption (Gallons):
+                </div>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Annual Consumption (Gallons): </span>
+                        <input type="text" placeholder="" id="fscf_field10_6" name="best-phone">
+                    </label>
+                <div class="item item-divider form-form">
+                    Type of Equipment:
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_15_1" name="type-of-equipment" value="1">Oil Furnace</ion-radio>
+                            <ion-radio id="fscf_field10_15_2" name="type-of-equipment" value="2">Oil Boiler</ion-radio>
+                            <ion-radio id="fscf_field10_15_3" name="type-of-equipment" value="3">Gas Boiler</ion-radio>
+                            <ion-radio id="fscf_field10_15_4" name="type-of-equipment" value="4">Propane or Gas Furnace</ion-radio>
+                            <ion-radio id="fscf_field10_15_5" name="type-of-equipment" value="5">Air Conditioning</ion-radio>
+                            <ion-radio id="fscf_field10_15_6" name="type-of-equipment" value="6">Heat Pump (Electric Heat)</ion-radio>
+                    </ion-list>
+                <div class="item item-divider form-form">
+                    Would you like information about a service contract which can save you up to 10% in your home energy bill?
+                </div>
+                    <ion-list>
+                            <ion-radio id="fscf_field10_17_1" name="would-you-like-information-about-a-servi" value="1">Yes</ion-radio>
+                            <ion-radio id="fscf_field10_17_2" name="would-you-like-information-about-a-servi" value="2">No</ion-radio>
+                    </ion-list>
+                    <div id="fscf_captcha_image_div10" style="width:250px; height:65px; text-align:center;">
+      <img id="fscf_captcha_image1" style="border-style:none; margin:0; padding:0px; padding-right:5px; float:left;" src="http://www.berico.com/wp-content/plugins/si-contact-form/captcha/securimage_show.php?prefix=lLzht2ZToOu905QO" width="175" height="60" alt="CAPTCHA Image" title="CAPTCHA Image">
+      <input id="fscf_captcha_prefix1" type="hidden" name="fscf_captcha_prefix1" value="lLzht2ZToOu905QO">
+     <div id="fscf_captcha_refresh1">
+        <a href="#" rel="nofollow" title="Refresh Image" onclick="fscf_captcha_refresh('1','/wp-content/plugins/si-contact-form/captcha','http://www.berico.com/wp-content/plugins/si-contact-form/captcha/securimage_show.php?prefix='); return false;">
+        <img src="http://www.berico.com/wp-content/plugins/si-contact-form/captcha/images/refresh.png" width="22" height="20" alt="Refresh Image" style="border-style:none; margin:0; padding:0px; vertical-align:bottom;" onclick="this.blur();"></a>
+     </div>
+</div>
+
+                    <label id="fscf_captcha_field10" class="item item-input item-stacked-label">
+                        <span class="input-label" style="white-space:normal; width:100%;">Please fill in the above code for security purposes.<span style="color:#ff0000;">*</span></span>
+                        <input type="text" placeholder="Place Code here" id="fscf_captcha_code1" name="captcha_code" required>
+                    </label>
+                    <input type="submit" id="fscf_submit10" class="button button-balanced button-block" value="Submit" onclick="this.disabled=true; this.value='Submitting...'; this.form.submit();"> 
+            </div>
+           </form>
+        </div>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,141 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+<!--    <ion-header-bar class="bar-stable">
+      <h1 class="title">Left</h1>
+    </ion-header-bar>-->
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close href="#/app/home">
+          Home
+        </ion-item>
+        <ion-item class="item-icon-right" menu-close href="https://myaccount.berico.com/login">
+          My Account <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="https://myaccount.berico.com/login">
+          My Account
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/credit-application/">
+          Residential Credit App
+        </ion-item>
+        <ion-item menu-close href="#/app/propane-delivery-services">
+          Propane &amp; Heating Oil <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-oil/">
+          Heating Oil
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="#/app/propane-delivery-services">
+          Propane Deliver &amp; Services
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/kerosene/">
+          Kerosene
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/gas-logs/">
+          Gas Logs
+        </ion-item>
+        <ion-item class="item-icon-right" menu-close href="#/app/heating-AC-repair">
+          Heating &amp; AC Repair <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/hvac/">
+          HVAC
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/air-conditioning/">
+          AC Repair
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/heating-and-air-equipment-and-installation/">
+          Heating &amp; Air Equipment Installation
+        </ion-item>
+        <ion-item class="item-icon-right submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-service/service-plans/">
+          HVAC Maintenance Plans <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-sub-item" menu-close href="http://www.berico.com/service-plans/silver-comfort-and-protection-plan/">
+          Maintenance Plans
+        </ion-item>
+        <ion-item class="submenu-sub-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/bonus-bucks/">
+          Bonus Bucks
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/greensboro-commercial-hvac-services/">
+          Commercial HVAC
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/gas-logs/">
+          Gas Logs
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/home-energy-audit/">
+          Energy Audit
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/tank-install-oil-propane/">
+          Tank install - Propane &amp; Oil
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="https://www.filterfetch.com/air-filters">
+          Filter Orders
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/heating-air-conditioning-repair/generators/">
+          Generators
+        </ion-item>
+        <ion-item menu-close href="http://www.berico.com/heating-air-conditioning-repair/generators/">
+          Generators
+        </ion-item>
+        <ion-item menu-close href="#/app/motor-oil-and-lubricants">
+          Motor Oil &amp; Lubricants
+        </ion-item>
+        <ion-item class="item-icon-right" menu-close href="#/app/commercial-fueling">
+          Commercial/Wholesale Fueling <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/motor-oil-and-lubricants/fleet-fueling/">
+          Fleet Fueling
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/motor-oil-and-lubricants/motor-fuels/">
+          Motor Fuels
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/motor-oil-and-lubricants/msds-information/">
+          MSDS Information
+        </ion-item>
+        <ion-item menu-close href="#/app/specials">
+          Specials
+        </ion-item>
+        <ion-item menu-close href="http://www.giftofwarmth.com/">
+          Gift of Warmth
+        </ion-item>
+        <ion-item class="item-icon-right" menu-close href="#/app/contact">
+          Contact Us <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://bericoreviews.com/Feedback">
+          Feedback
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/contact-us/berico/">
+          Berico
+        </ion-item>
+        <ion-item class="submenu-item" menu-close href="http://www.berico.com/careers/">
+          Careers
+        </ion-item>
+        <ion-item class="item-icon-right submenu-item" menu-close href="http://www.berico.com/about/">
+            About Us <i class="icon ion-chevron-down"></i>
+        </ion-item>
+        <ion-item class="submenu-sub-item" menu-close href="http://www.berico.com/category/press/">
+          Press
+        </ion-item>
+        <ion-item class="submenu-sub-item" menu-close href="http://www.berico.com/careers/">
+          Careers
+        </ion-item>
+        <ion-item menu-close href="http://www.berico.com/category/articles/">
+          HVAC info &amp; Articles
+        </ion-item>
+        <ion-item menu-close href="#/app/meet-our-service-team">
+          Meet Our Service team
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

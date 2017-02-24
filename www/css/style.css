@@ -1,0 +1,286 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: Arvo-regular;
+    src: url(../fonts/Arvo-Regular.woff); 
+}
+@font-face {
+    font-family: PT-sans;
+    src: url(../fonts/PTSans-Regular.woff); 
+}
+body{
+    color: #333;    
+    line-height: 1.42857143 !important;
+    font-size: 18px;
+}
+.submenu-item{
+    padding-left:20px;
+}
+.submenu-sub-item{
+    padding-left: 40px;
+}
+.head-logo{
+    width: 270px !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bar-header {
+    height: 130px;
+    background-color: #428D00 !important;
+}
+
+.bar-header .title{
+    line-height: 70px;
+    height: 100%;
+
+}
+.title.title-left.header-item{
+    text-align: center;
+    left: 0 !important;
+    right: 0 !important;    
+}
+.has-header{
+    top: 145px;
+    bottom: 15px;
+}
+.title.title-center.header-item{
+    left: 0 !important;
+    right: 0 !important;
+}
+div.buttons.buttons-left.header-item{
+    position: absolute;
+    float: left;
+    z-index: 999;
+}
+.ion-navicon::before{
+    font-size: 64px !important;
+    line-height: 48px !important;
+    color: #fff;
+}
+ion-item a.item-content, ion-item i.icon{
+    font-size: 13px !important;
+}
+div.address{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0 !important;
+}
+div.cta-btn{
+    text-align: center;
+    
+}
+a.cta{
+    border-radius: 13px;
+    text-indent: 0;
+    border: 1px solid #83c41a;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    height: 71px;
+    width: 250px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #689324;
+    background: -webkit-gradient( linear,left top,left bottom,color-stop(0.05,#9dce2c),color-stop(1,#8cb82b) );
+}
+
+a.cta:hover{
+    color: #f5f5f5;
+}
+
+.shs-btn .shs, .shs-btn .clickhere{
+    color: #f04a43;
+}
+
+.fpd-btn{
+    width: 200px;
+    height: 56px !important;
+    max-height: 56px !important;
+    background-image: url(../img/fuelbutton1.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.shs-btn{
+    width: 200px;
+    height: 56px !important;
+    max-height: 56px !important;
+    background-image: url(../img/schedulebutton1.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.grp-btns{
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.long-txt{
+    text-align: justify;
+    white-space: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
+.footer-icons .col{
+    text-align: center;
+}
+.footer-icons .col .fa-stack{
+    font-size: 24px;
+    color: #d91e18;
+}
+.title-h2{
+    font-family: Arvo-regular;
+    font-weight: bold;
+}
+.order-btn{
+    width: 200px;
+    height: 56px !important;
+    max-height: 56px !important;
+    background-image: url(../img/order-button1.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.ul-circ{
+    list-style-type: disc !important;
+}
+.ul-circ li{
+    font-size: medium;
+    display: list-item;
+}
+.hacr p{
+    font-size: medium;
+}
+.special-item-title a{
+    font-family: Arvo-regular;
+    font-weight: bold;
+    color: #990000;
+    text-decoration: underline;
+}
+.special-item p{
+    text-align: center;
+}
+.price{
+    color: #ff0000 !important;
+}
+.item p:not(.label){
+    font-size: 18px !important;
+}
+.label{
+    font-size: 8pt !important;
+}
+.item.special-item{
+    border-style: dashed;
+}
+.item h2{
+    font-size: 30px !important;
+    white-space: normal;
+}
+.hacr em{
+    font-family: Arvo-regular;
+    font-style: italic;
+    font-size: 18px;
+}
+.partner-logo p{
+    text-align: center;
+}
+.partner-logo p .map{
+    width: 100%;
+}
+.item-divider strong{
+    text-decoration: underline;
+    font-size:23px !important;
+}
+.main-logo p{
+    text-align: center;
+}
+.main-logo p img{
+    width:260px;
+    height:143px;
+}
+.contact-item .row{
+    margin: 10px;
+}
+.team-profile{
+    text-align: center;
+}
+.team-profile.item{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.team-profile img{
+    width:300px !important;
+    height:280px !important;
+}
+
+.team-profile{
+    margin: 10px 0;
+}
+.button.back-button.buttons.button-clear.header-item{
+    color: #fff !important;
+    position: absolute;
+}
+textarea {
+    resize: none;
+}
+.form-form{
+    font-size:14px;
+    white-space:normal;
+}
+#fscf_captcha_image_div1, #fscf_captcha_image_div10, #fscf_captcha_image_div11{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#fscf_submit1.button{
+    margin-top: 10px;
+}
+/* iOS Specific Overrides to fix logo overlap */
+.platform-ios8.platform-cordova:not(.fullscreen) .head-logo{
+    width: 270px !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.platform-ios8.platform-cordova:not(.fullscreen) .bar-header {
+    height: 130px;
+    background-color: #428D00 !important;
+}
+
+.platform-ios8.platform-cordova:not(.fullscreen) .bar-header .title{
+    line-height: 70px;
+    height: 100%;
+
+}
+.platform-ios.platform-cordova:not(.fullscreen) .head-logo{
+    width: 270px !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header {
+    height: 130px;
+    background-color: #428D00 !important;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header .title{
+    line-height: 70px;
+    height: 100%;
+
+}
