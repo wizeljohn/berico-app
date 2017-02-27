@@ -33,3 +33,8 @@ angular.module('starter.controllers', [])
     $scope.selection = 'main';
   }    
 });
+
+
+  $scope.GotoLink = function (url) {
+    window.open(link,'_system');
+  }
